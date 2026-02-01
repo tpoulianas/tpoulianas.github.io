@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>Telemachos Poulianas | Portfolio</title>
-  <meta name="description" content="Junior full-stack developer portfolio: projects, skills, contact."/>
+  <title>Tilemachos Poulianas | Portfolio</title>
+  <meta name="description" content="Computer Engineering & Informatics student focused on Frontend Development and Software Engineering. Projects, skills, and contact."/>
   <link rel="icon" href="assets/img/favicon.svg">
   <link rel="stylesheet" href="assets/css/styles.css"/>
 </head>
@@ -14,8 +14,10 @@
   <header class="hero" id="top">
     <div class="hero__inner">
       <div class="hero__badge" aria-hidden="true">◆</div>
-      <h1 class="hero__title">JUNIOR FULL STACK DEVELOPER</h1>
-      <p class="hero__subtitle">Exploring the world of coding, building projects, and learning every day.</p>
+      <h1 class="hero__title">FRONTEND & SOFTWARE ENGINEERING STUDENT</h1>
+      <p class="hero__subtitle">
+        Building user-focused projects, learning every day, and growing through real-world engineering challenges.
+      </p>
 
       <nav class="nav">
         <a class="nav__link" href="#intro">Intro</a>
@@ -29,18 +31,31 @@
   <main class="container">
     <section class="card" id="intro">
       <h2>Intro</h2>
+
       <p>
-        I’m <strong>Telemachos Poulianas</strong>, a Computer Engineering & Informatics student interested in software development and web technologies.
-        I enjoy building practical projects and continuously learning new tools and patterns.
+        Hi, I’m <strong>Tilemachos Poulianas</strong>, a Computer Engineering &amp; Informatics student with a strong interest in
+        <strong>Frontend Development</strong> and <strong>Software Engineering</strong>.
+      </p>
+
+      <p>
+        I enjoy building interactive, user-focused applications and learning how software design, usability, and performance come together in real products.
+        I’m currently expanding my skills through academic projects and hands-on development, with a particular interest in clean interfaces,
+        interaction design, and scalable systems.
+      </p>
+
+      <p class="muted">
+        Currently seeking internship opportunities in software or frontend development.
       </p>
 
       <div class="chips">
+        <span class="chip">HTML/CSS</span>
+        <span class="chip">JavaScript</span>
         <span class="chip">React</span>
         <span class="chip">Node.js</span>
-        <span class="chip">Express</span>
         <span class="chip">MySQL</span>
         <span class="chip">Java</span>
         <span class="chip">C/C++</span>
+        <span class="chip">HCI / UX mindset</span>
       </div>
     </section>
 
@@ -55,6 +70,13 @@
             <option value="name">Sort: Name</option>
           </select>
         </div>
+      </div>
+
+      <div class="muted" style="margin-top: 8px;">
+        <strong>Featured:</strong>
+        <a href="https://github.com/tpoulianas/The-Last-Gate" target="_blank" rel="noreferrer">The Last Gate</a>
+        — interactive application project with a playable Windows build
+        (<a href="https://github.com/tpoulianas/The-Last-Gate/releases" target="_blank" rel="noreferrer">Download</a>).
       </div>
 
       <p class="muted">
@@ -73,35 +95,40 @@
 
     <section class="card" id="contact">
       <h2>Contact</h2>
-      <p class="muted">This form uses <a href="https://formspree.io/" target="_blank" rel="noreferrer">Formspree</a>. Add your endpoint in <code>assets/js/config.js</code>.</p>
 
-      <form class="form" id="contactForm">
-        <label>
-          <span>Name</span>
-          <input class="input" name="name" required />
-        </label>
+      <p class="muted">
+        Feel free to reach out — I usually respond fast.
+      </p>
 
-        <label>
-          <span>Email</span>
-          <input class="input" name="email" type="email" required />
-        </label>
+      <ul class="muted" style="list-style: none; padding-left: 0; margin: 12px 0 0 0;">
+        <li style="margin: 6px 0;">
+          <strong>Email:</strong>
+          <a href="mailto:tpoulianas@gmail.com" target="_blank" rel="noreferrer">tpoulianas@gmail.com</a>
+        </li>
+        <li style="margin: 6px 0;">
+          <strong>GitHub:</strong>
+          <a href="https://github.com/tpoulianas" target="_blank" rel="noreferrer">github.com/tpoulianas</a>
+        </li>
+        <li style="margin: 6px 0;">
+          <strong>LinkedIn:</strong>
+          <a href="https://www.linkedin.com/in/tilemachos-poulianas-b22284359/" target="_blank" rel="noreferrer">
+            linkedin.com/in/tilemachos-poulianas
+          </a>
+        </li>
+        <li style="margin: 6px 0;">
+          <strong>Location:</strong> Athens, Greece
+        </li>
+      </ul>
 
-        <label class="form__full">
-          <span>Message</span>
-          <textarea class="textarea" name="message" rows="5" required></textarea>
-        </label>
+      <div class="form__actions" style="margin-top: 16px;">
+        <a class="btn" href="mailto:tpoulianas@gmail.com">Email me</a>
+        <a class="btn btn--ghost" href="#top">Back to top</a>
+      </div>
 
-        <div class="form__actions">
-          <button class="btn" type="submit">Send</button>
-          <a class="btn btn--ghost" href="#top">Back to top</a>
-        </div>
-
-        <p id="formStatus" class="muted small" role="status"></p>
-      </form>
     </section>
 
     <footer class="footer">
-      <span>© <span id="year"></span> Telemachos Poulianas</span>
+      <span>© <span id="year"></span> Tilemachos Poulianas</span>
       <span class="footer__sep">•</span>
       <a href="https://github.com/tpoulianas" target="_blank" rel="noreferrer">github.com/tpoulianas</a>
     </footer>
